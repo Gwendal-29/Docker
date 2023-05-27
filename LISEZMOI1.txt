@@ -1,0 +1,17 @@
+
+Afin de faciliter vos créations de rapports trimestriels, nous avons mis en place un outil et plus précisément un script qui 
+permet de récupérer les données de toutes les régions de France pour créer un PDF pour chaque régions.
+
+Avant de se servir de cet outil, vous téléchargerez notre archive en Zip puis vous l'extrayez, il vous suffira par la suite de placer vos fichiers 
+textes dans le dossier 'DATA/fichiers.txt'.
+
+Une fois cela fait, il vous faudra ouvrir un terminal sous Linux et utiliser les commandes : 
+1 - "docker image pull sae103-php" 
+2 - "docker container run --rm -it --name sae103 sae103-php bash"
+
+Une fois cela fait, vous ouvrirez un deuxième terminal   dans le dossier principal nommé "sae103", et vous  : " docker container cp ./DATA sae103:/work.
+
+Vous retournez ensuite sur le premier terminal, il y aura un affichage différent avec affiché "#work".
+Vous exécuterez "cd DATA" et vous ferez "php -f sae103.php".
+
+Pour finir, vous retournerez dans le deuxième terminal et ferez : "docker container cp sae103:/work ./"

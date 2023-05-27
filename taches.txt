@@ -1,0 +1,5 @@
+Alexian : Page HTML (100%), CSS (40%)
+Camille : script d'extraction de données en PHP (45%), CSS (10%)
+Elouan : Script d'extraction de données en PHP (10%), CSS (50%)
+Gwendal : Création d'un fichier BASH permettant d'executer tout nos scripts d'un seul coup (65%), fichier BASH permettant de mettre nos images en gris (100%), LISEZMOI1.txt (50%)
+Evan : regions.conf avec un format PHP (100%), script d'extraction de données en PHP (45%), Fichier BASH permettant d'executer tout nos scripts d'un seul coup (35%), LISEZMOI1.txt (50%)

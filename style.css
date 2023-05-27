@@ -1,0 +1,198 @@
+
+
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+ 
+section {
+    position: relative;
+    height: 100vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+ 
+.bottom {
+    position: absolute;
+    bottom: 0;
+    border: 1px dotted red;
+    min-height: 5rem;
+}
+
+/* PAGE 1 */
+
+header>h1{
+    font-size: 50px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    margin: 0px;
+}
+
+header{
+    background-color: #576794;
+    height: 300px;
+}
+
+header>img{
+    position: absolute;
+    top: 60px;
+    left: 280px;
+    height: 200px;
+    width: 200px;
+}
+
+header>hr{
+    background-color: #d1d7e6;
+    width: 30%;
+    height: 3px;
+    position: absolute;
+    left: 500px;
+    top: 153px;
+}
+
+.page1>ul{
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.page1>ul>li{
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul>hr{
+    background-color: #576794;
+    width: 100%;
+    height: 3px;
+}
+
+.page1>p{
+    color: black;
+}
+
+
+
+/* PAGE 2 */
+
+
+
+.page2>h1{
+    font-size: 40px;
+    background-color: #576794;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 80px;
+    margin: 0;
+}
+
+.page2>p{
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+th, td{
+    border: solid 2px black;
+    padding: 5px;
+    text-align: center;
+}
+
+th{
+    height: 80px;
+}
+
+td{
+    height: 200px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+
+
+/* PAGE 3 */
+
+.page3>h1{
+    font-size: 40px;
+    background-color: #576794;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 80px;
+    margin: 0;
+}
+
+
+.page3>ul{
+    list-style: none;
+}
+
+.page3>ul>li{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+li>figure>img{
+    width: 200px;
+    height: 200px;
+}
+
+
+/* PAGE 4 */
+
+.page4>a{
+    font-size: 30px;
+    height: 100px;
+    left: 500px;
+    margin: 0;
+    position: absolute;
+    top: 150px;
+}
+
+.page4>img{
+    font-size: 30px;
+    height: 100px;
+    left: 800px;
+    margin: 0;
+    position: absolute;
+    top: 150px;
+}
+
+
+
+
+
+
+
+
+ 
+/* @page { size: A4 } */
+ 
+@media print {
+    section {
+       border: 1px solid black;
+       width: 8.26in;
+       height: 11.66in;
+       margin: 0;
+       /* change the margins as you want them to be. */
+       page-break-after: always;
+    }
+}
